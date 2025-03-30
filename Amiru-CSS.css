@@ -1,0 +1,152 @@
+
+/**
+ * @name Amiru CSS
+ * @author Amiru
+ * @version 2.0.0
+ * @description QoL/debloat CSS specifically for Amiru.
+*/
+
+/* Member Hover */
+@import url('https://raw.githubusercontent.com/lithwack/Member-List-Hover/refs/heads/main/Visual%20Refresh');
+
+/* Radial Status */
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+
+:root {
+  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
+  --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+
+  --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
+  --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+  --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+
+  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+
+  --rs-online-color: #43b581; /* Colour for online status */
+  --rs-idle-color: #faa61a; /* Colour for idle status */
+  --rs-dnd-color: #f04747; /* Colour for dnd status */
+  --rs-offline-color: #636b75; /* Colour for offline status */
+  --rs-streaming-color: #643da7; /* Colour for streaming status */
+  --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+
+  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+}
+
+/* Member Hover Speed */
+:root {
+  --hover-animation-speed: .60s;
+}
+
+/* Aligned Chat Bar */
+
+.visual-refresh {
+  --custom-channel-textarea-text-area-height: 56px;
+  .form_f75fb0 {
+      display: flex;
+      flex-direction: column;
+  }
+  .channelTextArea_f75fb0 {
+      margin-bottom: 8px;
+  }
+  .base_b88801 {
+      position: static;
+      order: -1;
+  }
+}
+
+/* Read All */
+
+.vc-ranb-button {
+margin: 0 16px;
+width: calc(100% - 32px);
+height: 40px !important;
+min-height: 40px;
+max-height: 40px !important;
+padding: 2px;
+background-color: var(--background-surface-higher);
+border: none;
+border-radius: 12px;
+
+.contents__201d5 {
+  font-size: 0px;
+}
+
+.contents__201d5::after {
+  content: "asdfg";
+  font-size: 18px;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  color: transparent;
+  top: 2.5px;
+  left: 6px;
+  background-image: url("data:image/svg+xml,%3Csvg%20x%3D%220%22%20y%3D%220%22%20class%3D%22icon__9293f%22%20aria-hidden%3D%22true%22%20role%3D%22img%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23D8D8DB%22%20d%3D%22M9.7%202.89c.18-.07.32-.24.37-.43a2%202%200%200%201%203.86%200c.05.2.19.36.38.43A7%207%200%200%201%2019%209.5v2.09c0%20.12.05.24.13.33l1.1%201.22a3%203%200%200%201%20.77%202.01v.28c0%20.67-.34%201.29-.95%201.56-1.31.6-4%201.51-8.05%201.51-4.05%200-6.74-.91-8.05-1.5-.61-.28-.95-.9-.95-1.57v-.28a3%203%200%200%201%20.77-2l1.1-1.23a.5.5%200%200%200%20.13-.33V9.5a7%207%200%200%201%204.7-6.61ZM9.18%2019.84A.16.16%200%200%200%209%2020a3%203%200%201%200%206%200c0-.1-.09-.17-.18-.16a24.86%2024.86%200%200%201-5.64%200Z%22%20class%3D%22%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+}
+
+&:hover {
+  background-color: var(--brand-500);
+
+  .contents__201d5::after {
+    background-image: url("data:image/svg+xml,%3Csvg%20x%3D%220%22%20y%3D%220%22%20class%3D%22icon__9293f%22%20aria-hidden%3D%22true%22%20role%3D%22img%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23FFFFFF%22%20d%3D%22M9.7%202.89c.18-.07.32-.24.37-.43a2%202%200%200%201%203.86%200c.05.2.19.36.38.43A7%207%200%200%201%2019%209.5v2.09c0%20.12.05.24.13.33l1.1%201.22a3%203%200%200%201%20.77%202.01v.28c0%20.67-.34%201.29-.95%201.56-1.31.6-4%201.51-8.05%201.51-4.05%200-6.74-.91-8.05-1.5-.61-.28-.95-.9-.95-1.57v-.28a3%203%200%200%201%20.77-2l1.1-1.23a.5.5%200%200%200%20.13-.33V9.5a7%207%200%200%201%204.7-6.61ZM9.18%2019.84A.16.16%200%200%200%209%2020a3%203%200%201%200%206%200c0-.1-.09-.17-.18-.16a24.86%2024.86%200%200%201-5.64%200Z%22%20class%3D%22%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+  }
+}
+}
+
+/* Chat Actions */
+
+[class^=chat_] [class^=textArea_] {
+    margin-right: 24px;
+    +[class^=buttons_] {
+      position: absolute;
+      right: 0;
+      background-color: hsl(var(--neutral-81) / 0.5);
+      backdrop-filter: blur(3px);
+      border-radius: 8px;
+      /* Send message button fix */
+      &:not(:hover)>[class^=separator_] {
+        margin-left: 0;
+        &::before { display: none; }
+        button>div { margin-left: 8px; }
+      }
+    }
+  }
+
+  /*#region Collapse the chat buttons except when hovering */
+[class^=chat_] [class*=textArea_] {
+  margin-right: 32px;
+  +[class^=buttons_] {
+    position: absolute;
+    right: 0;
+    &:not(:hover)>:not(:has(> [class^=emojiButton] )) {
+      display: none;
+    }
+    &:not(:hover)>[class^=container_] button>div {
+      margin-left: 8px;
+    }
+    >:has(> [class*=emojiButton_]) {
+        order: 99;
+    }
+    >:has(> .app-launcher-entrypoint) {
+        order: -1;
+    }
+  }
+}
+/*#endregion */
+
+/* Remove App Button */
+button[aria-label="Apps"]{
+    display:none;
+}
+
+/* Remove Bloat */
+a[href="https://support.discord.com"], /* Help Button */
+.nowPlayingColumn__133bf, /* Active Now Sidebar */
+.newChannel__599fa, /* "NEW" text thats next to channels */
+.iconWrapper__9293f:has([d^="M12 22C12.4883"]), /* User Profile Button*/
+.buttons__74017 > .button__201d5 /* Send Gift Button */
+{ 
+  display: none;
+}
