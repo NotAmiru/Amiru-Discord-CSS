@@ -7,7 +7,7 @@
  - [Radial Status](https://github.com/DiscordStyles/RadialStatus/tree/master)
  - Aligned Chat Bar (for visual refresh) by [refact0r](https://github.com/refact0r)
  - Visual Refresh styled Read All button (**Must have ReadAllNotificationButton Plugin Enabled**)
- - Chat Action Hover (Hover over app button to reveal actions)
+ - Chat Action Hover (Hover over app button to reveal actions) by [Obsidian](https://github.com/Obsidianninja11)
      + Show emoji instead of app button
  - Remove App button
  - Remove bloat (Help, Active Now, "NEW", Profile button, Send Gift)
