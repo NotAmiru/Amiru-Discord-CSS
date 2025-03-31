@@ -6,7 +6,7 @@
  - DM Icon Change
  - Radial Status
  - Aligned Chat Bar (for visual refresh)
- - Visual Refresh styled Read All button
+ - Visual Refresh styled Read All button (**Must have ReadAllNotificationButton Plugin Enabled**)
  - Chat Action Hover (Hover over app button to reveal actions)
      + Show emoji instead of app button
  - Remove App button
