@@ -8,11 +8,11 @@
 /* Member Hover */
 @import url('https://raw.githubusercontent.com/lithwack/Member-List-Hover/refs/heads/main/Visual%20Refresh');
 
-/* Home Icon */
+/* Home/DM Icon */
 @import url("https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css");
 
 /* Radial Status */
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url("https://raw.githubusercontent.com/DiscordStyles/RadialStatus/deploy/RadialStatus.theme.css");
 
 :root {
   --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
