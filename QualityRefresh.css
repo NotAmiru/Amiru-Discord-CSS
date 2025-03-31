@@ -198,3 +198,10 @@ a[href="https://support.discord.com"], /* Help Button */
 .bottom__7aaec {
   bottom: 0px!important;
 }
+
+/* Hide Member List Activities */
+
+[class*='membersGroup']:has([role=button]),
+[class*='member'] [class*='container']:has([class*='badges']) {
+  display: none;
+}
