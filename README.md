@@ -13,9 +13,9 @@
  - Remove bloat (Help, Active Now, "NEW", Profile button, Send Gift)
  - User Panel Hover
 
-More snippets may be added in the future.
+More snippets may be added in the future. <br>
 
-This file is made with myself in mind as it's what I wanted and liked, so some of this may or may not be to your liking.
+This file is made with myself in mind as it's what I wanted and liked, so some of this may or may not be to your liking however, this can be customised to your liking. <br>
 
 Note: All snippets included can be found in the Official Vencord Server apart from Radial Status which can be found [here](https://github.com/DiscordStyles/RadialStatus/tree/master). 
 
