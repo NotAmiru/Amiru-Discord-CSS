@@ -2,10 +2,10 @@
 **A combination of QoL/Debloat Snippets for Vencord**
 
 **Current Snippets included**:
- - Member List Hover
- - DM Icon Change
- - Radial Status
- - Aligned Chat Bar (for visual refresh)
+ - Member List Hover by [@moonself](https://github.com/lithwack/Vencord-Repos/blob/main/Memberlist%20Hover%20VR)
+ - DM Icon Change by [DaBlueLite](https://)
+ - [Radial Status](https://github.com/DiscordStyles/RadialStatus/tree/master)
+ - Aligned Chat Bar (for visual refresh) by [refact0r](https://github.com/refact0r)
  - Visual Refresh styled Read All button (**Must have ReadAllNotificationButton Plugin Enabled**)
  - Chat Action Hover (Hover over app button to reveal actions)
      + Show emoji instead of app button
@@ -17,7 +17,7 @@ More snippets may be added in the future. <br>
 
 This file is made with myself in mind as it's what I wanted and liked, so some of this may or may not be to your liking however, this can be customised to your liking. <br>
 
-Note: All snippets included can be found in the Official Vencord Server apart from Radial Status which can be found [here](https://github.com/DiscordStyles/RadialStatus/tree/master). 
+Note: Most snippets included can be found in the [Official Vencord Server](https://discord.gg/E5qGbcTX). 
 
 
 # Installation Guide
