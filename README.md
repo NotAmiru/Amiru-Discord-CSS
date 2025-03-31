@@ -3,7 +3,7 @@
 
 **Current Snippets included**:
  - Member List Hover by [@moonself](https://github.com/lithwack/Vencord-Repos/blob/main/Memberlist%20Hover%20VR)
- - DM Icon Change by [DaBlueLite](https://github.com/DaBlueLite)
+ - DM Icon Change by [DaBluLite](https://github.com/DaBluLite)
  - [Radial Status](https://github.com/DiscordStyles/RadialStatus/tree/master)
  - Aligned Chat Bar (for visual refresh) by [refact0r](https://github.com/refact0r)
  - Visual Refresh styled Read All button (**Must have ReadAllNotificationButton Plugin Enabled**)
