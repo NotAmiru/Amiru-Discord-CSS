@@ -15,7 +15,7 @@
 
 More snippets may be added in the future.
 
-Also this file is made with myself in mind as it's what I wanted and liked, so some of this may or may not be to your liking.
+This file is made with myself in mind as it's what I wanted and liked, so some of this may or may not be to your liking.
 
 Note: All snippets included can be found in the Official Vencord Server apart from Radial Status which can be found [here](https://github.com/DiscordStyles/RadialStatus/tree/master). 
 
