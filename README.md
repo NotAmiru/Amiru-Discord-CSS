@@ -23,7 +23,8 @@ Most snippets included can be found in the [Official Vencord Server](https://dis
 
 # Installation Guide
 
- - Navigate to discord settings and click the "Themes" tab.
+ - Install [Vencord](https://vencord.dev/).
+ - Navigate to discord settings and click the "Themes" tab under the Vencord category.
  - Click "Open Themes Folder" and navigate to your Themes folder.
  - Download the QualityRefresh.css from this Github Repo.
  - Drag it into the Vencord Themes folder.
