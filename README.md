@@ -13,6 +13,7 @@
  - Remove bloat (Help, Active Now, "NEW", Profile button, Send Gift)
  - User Panel Hover by [Blade04208](https://github.com/Blade04208)
  - Hide Member List Activities by [LuSaffi](https://github.com/LuSaffi)
+ - Hide Avatar Decorations
 
 More snippets may be added in the future. <br>
 
