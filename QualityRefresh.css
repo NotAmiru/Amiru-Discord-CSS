@@ -1,7 +1,7 @@
 /**
  * @name Quality Refresh
  * @author Amiru
- * @version 1.0.3
+ * @version 1.0.4
  * @description QoL/debloat CSS tweaks designed to clear up and enhance the user experience of Discord.
 */
 
@@ -205,3 +205,9 @@ a[href="https://support.discord.com"], /* Help Button */
 [class*='member'] [class*='container']:has([class*='badges']) {
   display: none;
 }
+
+```/* Hide Avatar Decorations */
+
+[class^=avatarDecoration_]{
+  display: none;
+}```
