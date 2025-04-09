@@ -14,12 +14,15 @@
  - User Panel Hover by [Blade04208](https://github.com/Blade04208)
  - Hide Member List Activities by [LuSaffi](https://github.com/LuSaffi)
  - Hide Avatar Decorations
+ - Icon Pack by [Mudaranrhiod](https://github.com/mudaranrhiod/discord-iconpacks)
 
 More snippets may be added in the future. <br>
 
 This file is made with myself in mind as it's what I wanted and liked, so some of this may or may not be to your liking however, this can be customised to your liking. <br>
 
 Most snippets included can be found in the [Official Vencord Server](https://discord.gg/E5qGbcTX). <br>
+
+If you know some snippets that haven't been credited contact me via discord @Amiru. <br>
 
 **NOTE**: None of these snippets are made by me so I am not responsible for if they break and I can't promise that I will be able to help fix them.
 
