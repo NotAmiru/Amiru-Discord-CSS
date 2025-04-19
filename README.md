@@ -31,7 +31,7 @@ Then copy it into your Vencord `themes` folder and enable it in the **Themes** t
  - Hide Member List Activities 
  - Hide Avatar Decorations
  - Hide Profile actions (Reactions and Replies)   
- - Remove Voice Call Button 
+ - Hide Voice Call Button 
  ### Remove bloat 🗑️ 
  - Removes buttons such as the Help, Profile, Send Gift and App buttons   
  - Removes Friends List Active now   
