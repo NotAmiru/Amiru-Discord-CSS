@@ -3,16 +3,21 @@
  * @author Amiru
  * @version 1.0.4
  * @description QoL/debloat CSS tweaks designed to clear up and enhance the user experience of Discord.
+ * @source
 */
 
-/* Member Hover */
-@import url('https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Memberlist%20Hover%20VR');
+/* Imports */
 
-/* Home/DM Icon */
-@import url("https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css");
+/* Member Hover */ @import url('https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Memberlist%20Hover%20VR');
+/* Icon Pack */ @import url('https://raw.githubusercontent.com/mudaranrhiod/discord-iconpacks/refs/heads/master/vencord/solar/solar.css');
+/* Home/DM Icon */ @import url("https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css");
+/* Radial Status */ @import url("https://raw.githubusercontent.com/DiscordStyles/RadialStatus/deploy/RadialStatus.theme.css");
+/* Collapse DMs */
+
+/* Snippets */
+
 
 /* Radial Status */
-@import url("https://raw.githubusercontent.com/DiscordStyles/RadialStatus/deploy/RadialStatus.theme.css");
 
 :root {
   --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
@@ -36,9 +41,12 @@
   --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 }
 
-/* Member Hover Speed */
+
+/* Member List Hover Settings */ 
 :root {
-  --hover-animation-speed: .60s;
+  --hover-animation-speed: 0.6s;
+  --nametag-fade-speed: 0.6s ease-in;
+  --icon-custom-color: var(--channels-default);
 }
 
 /* Aligned Chat Bar */
@@ -82,8 +90,8 @@ border-radius: 12px;
   height: 16px;
   position: relative;
   color: transparent;
-  top: 5px;
-  left: 6.385px;
+  top: -4px;
+  left: 6px;
   background-image: url("data:image/svg+xml,%3Csvg%20x%3D%220%22%20y%3D%220%22%20class%3D%22icon__9293f%22%20aria-hidden%3D%22true%22%20role%3D%22img%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23D8D8DB%22%20d%3D%22M9.7%202.89c.18-.07.32-.24.37-.43a2%202%200%200%201%203.86%200c.05.2.19.36.38.43A7%207%200%200%201%2019%209.5v2.09c0%20.12.05.24.13.33l1.1%201.22a3%203%200%200%201%20.77%202.01v.28c0%20.67-.34%201.29-.95%201.56-1.31.6-4%201.51-8.05%201.51-4.05%200-6.74-.91-8.05-1.5-.61-.28-.95-.9-.95-1.57v-.28a3%203%200%200%201%20.77-2l1.1-1.23a.5.5%200%200%200%20.13-.33V9.5a7%207%200%200%201%204.7-6.61ZM9.18%2019.84A.16.16%200%200%200%209%2020a3%203%200%201%200%206%200c0-.1-.09-.17-.18-.16a24.86%2024.86%200%200%201-5.64%200Z%22%20class%3D%22%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
   background-repeat: no-repeat;
 }
@@ -100,7 +108,7 @@ border-radius: 12px;
 /* Chat Action Hover */
 
 [class^=chat_] [class^=textArea_] {
-    margin-right: 24px;
+    margin-right: 32px;
     +[class^=buttons_] {
       position: absolute;
       right: 0;
@@ -145,11 +153,11 @@ button[aria-label="Apps"]{
 
 /* Remove Bloat */
 
-a[href="https://support.discord.com"], /* Help Button */
-.nowPlayingColumn__133bf, /* Active Now Sidebar */
-.newChannel__599fa, /* "NEW" text thats next to channels */
-.iconWrapper__9293f:has([d^="M12 22C12.4883"]), /* User Profile Button*/
-.buttons__74017 > .button__201d5 /* Send Gift Button */
+a[href="https://support.discord.com"],           /* Help Button */
+.nowPlayingColumn__133bf,                        /* Active Now Sidebar */
+.newChannel__599fa,                              /* "NEW" text thats next to channels */
+.iconWrapper__9293f:has([d^="M12 22C12.4883"]),  /* User Profile Button*/
+.buttons__74017 > .button__201d5                 /* Send Gift Button */
 { 
   display: none;
 }
@@ -157,12 +165,12 @@ a[href="https://support.discord.com"], /* Help Button */
 /* User Panel Hover */
 
 .panels_c48ade {
-  height: 62px;
-  width: 62px!important;
+ height: 58px;
+ width: 58px!important;
  display: flex!important;
  flex-direction: column;
  overflow: hidden;
- transition: width 0.6s;
+ transition: width 0.3s;
   z-index: 50000;
   pointer-events: all;
   border: 1px solid var(--border-subtle)!important;
@@ -199,6 +207,11 @@ a[href="https://support.discord.com"], /* Help Button */
   bottom: 0px!important;
 }
 
+/* Userpanel Squashed */
+.visual-refresh .panel__5dec7 {
+  display: none;
+}
+
 /* Hide Member List Activities */
 
 [class*='membersGroup']:has([role=button]),
@@ -206,8 +219,17 @@ a[href="https://support.discord.com"], /* Help Button */
   display: none;
 }
 
-```/* Hide Avatar Decorations */
+/* Hide Avatar Decorations */
 
 [class^=avatarDecoration_]{
   display: none;
-}```
+}
+
+/* 2 Line Channel Description */
+section[aria-label="Channel header"] div[class^=topic_] {
+  white-space: normal;
+  max-height: 2.4em;
+  font-size: .9em;
+  text-overflow: ellipsis;
+  position: relative;
+}

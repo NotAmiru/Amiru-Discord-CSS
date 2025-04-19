@@ -1,6 +1,21 @@
 # Vencord Quality Refresh
 **A combination of QoL/Debloat Snippets for Vencord**
 
+## How to Use
+
+You can use this theme in two different ways with Vencord:
+
+### Online Themes (Auto Updates)
+Paste this into the **Online Themes** tab in Vencord:
+```
+https://raw.githubusercontent.com/NotAmiru/QualityRefresh/refs/heads/main/QualityRefresh.css
+```
+
+### Local File
+Download the `.css` file from the latest release here:  
+[https://github.com/madmaxgrey/Vertical-Spacious-Refresh/releases](https://github.com/NotAmiru/QualityRefresh/releases)
+Then copy it into your Vencord `themes` folder and enable it in the **Themes** tab.
+
 **Current Snippets included**:
  - Member List Hover by [@moonself](https://github.com/lithwack/Vencord-Repos/blob/main/Memberlist%20Hover%20VR)
  - DM Icon Change by [DaBluLite](https://github.com/DaBluLite)
@@ -35,3 +50,4 @@ If you know some snippets that haven't been credited contact me via discord @Ami
  - Drag it into the Vencord Themes folder.
  - Navigate back to the Themes tab and enable the Quality Refresh theme.
  - If the theme isn't shown click the load missing themes button and try again.
+###
