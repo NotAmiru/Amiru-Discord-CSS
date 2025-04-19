@@ -47,20 +47,21 @@ Then copy it into your Vencord `themes` folder and enable it in the **Themes** t
   
  ---
 
-## Credits 🧑‍🎨
+## Credits & Contact ℹ️
 
 ### Any credits that you think are missing and you know who they belong to? 
-Contact me on Discord @Amiru with the snippet name and author.
+Contact me on Discord `@Amiru` with the snippet name and author OR make a PR on the ReadMe.
 
-[moonself](https://github.com/lithwack/Vencord-Repos/blob/main/Memberlist%20Hover%20VR)   
-[DaBluLite](https://github.com/DaBluLite)   
-[refact0r](https://github.com/refact0r)   
-[Blade04208](https://github.com/Blade04208)   
-[Obsidian](https://github.com/Obsidianninja11)   
-[LuSaffi](https://github.com/LuSaffi)   
-[Mudaranrhiod](https://github.com/mudaranrhiod/discord-iconpacks)   
-[Preshyon](https://github.com/madmaxgrey)   
-[Discord Styles](https://github.com/DiscordStyles/RadialStatus/tree/master)   
+<p align="left">
+  <a href="https://github.com/lithwack"><img src="https://github.com/lithwack.png" width="32"/> moonself</a> ・
+  <a href="https://github.com/mudaranrhiod"><img src="https://github.com/mudaranrhiod.png" width="32"/> mudaranrhiod</a> ・
+  <a href="https://github.com/dablulite"><img src="https://github.com/dablulite.png" width="32"/> DaBluLite</a><br>
+  <a href="https://github.com/refact0r"><img src="https://github.com/refact0r.png" width="32"/> refact0r</a> ・
+  <a href="https://github.com/Obsidianninja11"><img src="https://github.com/Obsidianninja11.png" width="32"/> Obsidian</a> ・
+  <a href="https://github.com/madmaxgrey"><img src="https://github.com/madmaxgrey.png" width="32"/> Preshyon</a>
+  <a href="https://github.com/DiscordStyles"><img src="https://github.com/DiscordStyles.png" width="32"/> Discord Styles</a>
+</p>
+ 
 
 Most snippets included can be found in the [Official Vencord Server](https://discord.gg/E5qGbcTX)   
 
