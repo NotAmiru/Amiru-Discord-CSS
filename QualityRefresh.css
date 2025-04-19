@@ -14,10 +14,10 @@
 /* Home/DM Icon */  @import url('https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css');
 /* Radial Status */ @import url('https://raw.githubusercontent.com/DiscordStyles/RadialStatus/deploy/RadialStatus.theme.css');
 
-/*                                                  Snippets                                                    */
+/*                                                 ✂️ Snippets ✂️                                              */
 
 
-/*                                            ✂️ Add some Style ✂️                                             */
+/*                                              🎨 Add some Style 🎨                                           */
 
 /* Read All Button */
 
@@ -74,7 +74,7 @@
   } 
   
   
-  /*                                              🗑️ Remove Bloat 🗑️                                             */
+  /*                                                🗑️ Remove Bloat 🗑️                                           */
   
   
   [href="/store"],                                 /* Remove Nitro Tab */
@@ -89,12 +89,9 @@
     display: none !important;
   }
   
-  
-  
-  
-  
-  
-  /*                                             🌈 Quality of Life 🌈                                           */
+
+    
+  /*                                              🌈 Quality of Life 🌈                                          */
   
   /* Aligned Chat Bar */
   
