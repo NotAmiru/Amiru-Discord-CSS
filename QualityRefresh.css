@@ -1,18 +1,18 @@
 /**
  * @name Quality Refresh
  * @author Amiru
- * @version 1.0.4
- * @description QoL/debloat CSS tweaks designed to clear up and enhance the user experience of Discord.
- * @source
+ * @version 1.5
+ * @description QoL/debloat CSS tweaks designed to clear up and enhance the user experience of the new Discord refresh.
+ * @source https://github.com/NotAmiru/QualityRefresh/
 */
 
 /* Imports */
 
-/* Member Hover */ @import url('https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Memberlist%20Hover%20VR');
-/* Icon Pack */ @import url('https://raw.githubusercontent.com/mudaranrhiod/discord-iconpacks/refs/heads/master/vencord/solar/solar.css');
-/* Home/DM Icon */ @import url("https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css");
-/* Radial Status */ @import url("https://raw.githubusercontent.com/DiscordStyles/RadialStatus/deploy/RadialStatus.theme.css");
-/* Collapse DMs */
+/* Member Hover */  @import url('https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Memberlist%20Hover%20VR');
+/* Icon Pack */     @import url('https://mudaranrhiod.github.io/DT/vencord/solar.css');
+/* More icons */    @import url('https://mudaranrhiod.github.io/DT/vencord/solarmoreicons.css');
+/* Home/DM Icon */  @import url('https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css');
+/* Radial Status */ @import url('https://raw.githubusercontent.com/DiscordStyles/RadialStatus/deploy/RadialStatus.theme.css');
 
 /* Snippets */
 
@@ -66,7 +66,7 @@
   }
 }
 
-/* Read All */
+/* Read All Button */
 
 .vc-ranb-button {
 margin: 0 16px;
@@ -124,7 +124,7 @@ border-radius: 12px;
     }
   }
 
-  /*#region Show Emoji Instead of App */
+/* Show Emoji Button for Chat Action Hover */
 [class^=chat_] [class*=textArea_] {
   margin-right: 32px;
   +[class^=buttons_] {
@@ -144,15 +144,12 @@ border-radius: 12px;
     }
   }
 }
-/*#endregion */
 
-/* Remove App Button */
-button[aria-label="Apps"]{
-    display:none;
-}
+
 
 /* Remove Bloat */
 
+button[aria-label="Apps"],                       /* App button */
 a[href="https://support.discord.com"],           /* Help Button */
 .nowPlayingColumn__133bf,                        /* Active Now Sidebar */
 .newChannel__599fa,                              /* "NEW" text thats next to channels */
@@ -162,7 +159,7 @@ a[href="https://support.discord.com"],           /* Help Button */
   display: none;
 }
 
-/* User Panel Hover */
+/* Expandable Userpanel */
 
 .panels_c48ade {
  height: 58px;
@@ -207,7 +204,7 @@ a[href="https://support.discord.com"],           /* Help Button */
   bottom: 0px!important;
 }
 
-/* Userpanel Squashed */
+/* Userpanel Fixes */
 .visual-refresh .panel__5dec7 {
   display: none;
 }
@@ -233,3 +230,9 @@ section[aria-label="Channel header"] div[class^=topic_] {
   text-overflow: ellipsis;
   position: relative;
 }
+
+/* Hide Reply & Send Reaction Buttons Profile */
+.avatarPopover__2d0ab {
+  display: none!important;
+}
+
