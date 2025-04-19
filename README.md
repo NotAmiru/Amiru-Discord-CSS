@@ -50,7 +50,7 @@ Then copy it into your Vencord `themes` folder and enable it in the **Themes** t
 ## Credits 🧑‍🎨
 
 ### Any credits that you think are missing and you know who they belong to? 
-Contact me on Dicsord @Amiru with the snippet name and author.
+Contact me on Discord @Amiru with the snippet name and author.
 
 [moonself](https://github.com/lithwack/Vencord-Repos/blob/main/Memberlist%20Hover%20VR)   
 [DaBluLite](https://github.com/DaBluLite)   
