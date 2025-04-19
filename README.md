@@ -30,19 +30,21 @@ Then copy it into your Vencord `themes` folder and enable it in the **Themes** t
  ### Hide Unneeded items 🚫
  - Hide Member List Activities 
  - Hide Avatar Decorations
- - Hide Profile actions (Reactions and Replies)
- - Hide Avatar Decorations
+ - Hide Profile actions (Reactions and Replies)   
+ - Remove Voice Call Button 
  ### Remove bloat 🗑️ 
- - Removes buttons such as the Help, Profile, Send Gift and App buttons
- - Removes Friends List Active now
- - Removes "NEW" text
+ - Removes buttons such as the Help, Profile, Send Gift and App buttons   
+ - Removes Friends List Active now   
+ - Removes "NEW" text   
+ - Removes Shop & Nitro Tab  
 ### Quality of Life 🌈
  - Aligned Chat Bar (for visual refresh)  
- - Expandable Member List
- - Expandable User Panel
- - Expandable Chat Actions
- - Radial Status (Changes online status to circle around PFPs)
+ - Expandable Member List   
+ - Expandable User Panel   
+ - Expandable Chat Actions   
+ - Radial Status (Changes online status to circle around PFPs)   
  - 2 Line Channel Description   
+ - Better Nitro Tooltip
 <br>
   
  ---
@@ -50,7 +52,7 @@ Then copy it into your Vencord `themes` folder and enable it in the **Themes** t
 ## Credits & Contact ℹ️
 
 ### Any credits that you think are missing and you know who they belong to? 
-Contact me on Discord `@Amiru` with the snippet name and author OR make a PR on the ReadMe.
+Contact me via Discord `@Amiru` OR submit a PR to the [README](https://github.com/notamiru/QualityRefresh/blob/main/README.md).
 
 <p align="left">
   <a href="https://github.com/lithwack"><img src="https://github.com/lithwack.png" width="32"/> moonself</a> ・
