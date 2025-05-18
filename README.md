@@ -23,16 +23,18 @@ Then copy it into your Vencord `themes` folder and enable it in the **Themes** t
 
 ## Snippets included ✂️   
 
- ### Add some style 🎨
+### Add some style 🎨
  - Better Home/DM Icon
  - Visual Refresh styled Read All button (**Requires ReadAllNotificationButton Plugin**) 
  - Fresh Icons (**Requires ThemeAttriubutes Plugin**)
- ### Hide Unneeded items 🚫
- - Hide Member List Activities 
+ - Unified Unread Channel Notification
+### Hide Unneeded items 🚫
+ - Hide Profile actions (Reactions and Replies)  
  - Hide Avatar Decorations
- - Hide Profile actions (Reactions and Replies)   
- - Hide Voice Call Button 
- ### Remove bloat 🗑️ 
+ - Hide Voice Call Button    
+ - Hide Member List Activities
+ - Hide Discovery Button
+### Remove bloat 🗑️ 
  - Removes buttons such as the Help, Profile, Send Gift and App buttons   
  - Removes Friends List Active now   
  - Removes "NEW" text   
@@ -41,11 +43,14 @@ Then copy it into your Vencord `themes` folder and enable it in the **Themes** t
  - Aligned Chat Bar (for visual refresh)  
  - Expandable Member List   
  - Expandable User Panel   
- - Expandable Chat & Message Actions   
+ - Expandable Chat, Message & Profile Actions   
  - Radial Status (Changes online status to circle around PFPs)   
  - 2 Line Channel Description   
- - Better Nitro Tooltip
- - 
+ - Better Nitro Tooltip (Broken)
+ - Compact Context Menu
+ - Pinned Page Switcher
+ - Fullscreen Settings (**Requires User Customisation**)
+ - Collapse Clan Tags & Interchange Role Icons
 <br>
   
  ---
@@ -61,10 +66,10 @@ Contact me via Discord `@Amiru` OR submit a PR to the [README](https://github.co
   <a href="https://github.com/dablulite"><img src="https://github.com/dablulite.png" width="32"/> DaBluLite</a><br>
   <a href="https://github.com/refact0r"><img src="https://github.com/refact0r.png" width="32"/> refact0r</a> ・
   <a href="https://github.com/Obsidianninja11"><img src="https://github.com/Obsidianninja11.png" width="32"/> Obsidian</a> ・
-  <a href="https://github.com/madmaxgrey"><img src="https://github.com/madmaxgrey.png" width="32"/> Preshyon</a>
-  <a href="https://github.com/DiscordStyles"><img src="https://github.com/DiscordStyles.png" width="32"/> Discord Styles</a>
-  <a href="https://github.com/Err0r430"><img src="https://github.com/Err0r430.png" width="32"/> Error</a>
-  <a href="https://github.com/VitroidFPV"><img src="https://github.com/VitroidFPV.png" width="32"/> Vitroid</a>
+  <a href="https://github.com/madmaxgrey"><img src="https://github.com/madmaxgrey.png" width="32"/> Preshyon</a><br>
+  <a href="https://github.com/DiscordStyles"><img src="https://github.com/DiscordStyles.png" width="32"/> Discord Styles</a>・
+  <a href="https://github.com/Err0r430"><img src="https://github.com/Err0r430.png" width="32"/> Error</a>・
+  <a href="https://github.com/VitroidFPV"><img src="https://github.com/VitroidFPV.png" width="32"/> Vitroid</a><br>
 </p>
  
 
