@@ -70,6 +70,7 @@ Contact me via Discord `@Amiru` OR submit a PR to the [README](https://github.co
   <a href="https://github.com/DiscordStyles"><img src="https://github.com/DiscordStyles.png" width="32"/> Discord Styles</a>・
   <a href="https://github.com/Err0r430"><img src="https://github.com/Err0r430.png" width="32"/> Error</a>・
   <a href="https://github.com/VitroidFPV"><img src="https://github.com/VitroidFPV.png" width="32"/> Vitroid</a><br>
+  <a href="https://github.com/Krekevyks"><img src="https://github.com/Krekevyks.png" width="32"/> Krekevyks</a>
 </p>
  
 
