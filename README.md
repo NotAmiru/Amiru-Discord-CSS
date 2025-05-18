@@ -41,10 +41,11 @@ Then copy it into your Vencord `themes` folder and enable it in the **Themes** t
  - Aligned Chat Bar (for visual refresh)  
  - Expandable Member List   
  - Expandable User Panel   
- - Expandable Chat Actions   
+ - Expandable Chat & Message Actions   
  - Radial Status (Changes online status to circle around PFPs)   
  - 2 Line Channel Description   
  - Better Nitro Tooltip
+ - 
 <br>
   
  ---
@@ -62,6 +63,8 @@ Contact me via Discord `@Amiru` OR submit a PR to the [README](https://github.co
   <a href="https://github.com/Obsidianninja11"><img src="https://github.com/Obsidianninja11.png" width="32"/> Obsidian</a> ・
   <a href="https://github.com/madmaxgrey"><img src="https://github.com/madmaxgrey.png" width="32"/> Preshyon</a>
   <a href="https://github.com/DiscordStyles"><img src="https://github.com/DiscordStyles.png" width="32"/> Discord Styles</a>
+  <a href="https://github.com/Err0r430"><img src="https://github.com/Err0r430.png" width="32"/> Error</a>
+  <a href="https://github.com/VitroidFPV"><img src="https://github.com/VitroidFPV.png" width="32"/> Vitroid</a>
 </p>
  
 
