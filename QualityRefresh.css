@@ -8,15 +8,24 @@
 
 /*                                                 🔗 Imports 🔗                                               */
 
-@import url('https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Memberlist%20Hover');                      /* Expandable Member List */
-@import url('https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Profile%20Popout%20Actions%20Hover');      /* Expandable Profile Actions */
-@import url('https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Action%20Button%20Hover');                 /* Expandable Chat Actions */
-@import url("https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Collapsed%20Search%20Bar");                /* Hide Search box */
-@import URL('https://mudaranrhiod.github.io/VencordThemes/solar.css');                                                           /* Icon Pack */
-@import URL('https://mudaranrhiod.github.io/VencordThemes/solarmoreicons.css');                                                  /* More icons */
-@import url('https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css');                                               /* Home/DM Icon */
-@import url('https://discordstyles.github.io/RadialStatus/RadialStatus.css');                                                    /* Radial Status */
-@import url("https://raw.githubusercontent.com/KrstlSkll69/vc-snippets/main/OtherStuff/hideGlobalDiscovery.css");                /* Hide Discovery */
+@import url('https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Memberlist%20Hover');
+/* Expandable Member List */
+@import url('https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Profile%20Popout%20Actions%20Hover');
+/* Expandable Profile Actions */
+@import url('https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Action%20Button%20Hover');
+/* Expandable Chat Actions */
+@import url("https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Collapsed%20Search%20Bar");
+/* Hide Search box */
+@import URL('https://mudaranrhiod.github.io/VencordThemes/solar.css');
+/* Icon Pack */
+@import URL('https://mudaranrhiod.github.io/VencordThemes/solarmoreicons.css');
+/* More icons */
+@import url('https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css');
+/* Home/DM Icon */
+@import url('https://discordstyles.github.io/RadialStatus/RadialStatus.css');
+/* Radial Status */
+@import url("https://raw.githubusercontent.com/KrstlSkll69/vc-snippets/main/OtherStuff/hideGlobalDiscovery.css");
+/* Hide Discovery */
 
 
 /*                                                 ✂️ Snippets ✂️                                              */
@@ -36,11 +45,11 @@
   background-color: var(--background-surface-higher);
   border: none;
   border-radius: 12px;
-  
+
   .contents__201d5 {
     font-size: 0px;
   }
-  
+
   .contents__201d5::after {
     content: "asdfg";
     font-size: 18px;
@@ -53,10 +62,10 @@
     background-image: url("data:image/svg+xml,%3Csvg%20x%3D%220%22%20y%3D%220%22%20class%3D%22icon__9293f%22%20aria-hidden%3D%22true%22%20role%3D%22img%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23D8D8DB%22%20d%3D%22M9.7%202.89c.18-.07.32-.24.37-.43a2%202%200%200%201%203.86%200c.05.2.19.36.38.43A7%207%200%200%201%2019%209.5v2.09c0%20.12.05.24.13.33l1.1%201.22a3%203%200%200%201%20.77%202.01v.28c0%20.67-.34%201.29-.95%201.56-1.31.6-4%201.51-8.05%201.51-4.05%200-6.74-.91-8.05-1.5-.61-.28-.95-.9-.95-1.57v-.28a3%203%200%200%201%20.77-2l1.1-1.23a.5.5%200%200%200%20.13-.33V9.5a7%207%200%200%201%204.7-6.61ZM9.18%2019.84A.16.16%200%200%200%209%2020a3%203%200%201%200%206%200c0-.1-.09-.17-.18-.16a24.86%2024.86%200%200%201-5.64%200Z%22%20class%3D%22%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
     background-repeat: no-repeat;
   }
-  
+
   &:hover {
     background-color: var(--brand-500);
-  
+
     .contents__201d5::after {
       background-image: url("data:image/svg+xml,%3Csvg%20x%3D%220%22%20y%3D%220%22%20class%3D%22icon__9293f%22%20aria-hidden%3D%22true%22%20role%3D%22img%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23FFFFFF%22%20d%3D%22M9.7%202.89c.18-.07.32-.24.37-.43a2%202%200%200%201%203.86%200c.05.2.19.36.38.43A7%207%200%200%201%2019%209.5v2.09c0%20.12.05.24.13.33l1.1%201.22a3%203%200%200%201%20.77%202.01v.28c0%20.67-.34%201.29-.95%201.56-1.31.6-4%201.51-8.05%201.51-4.05%200-6.74-.91-8.05-1.5-.61-.28-.95-.9-.95-1.57v-.28a3%203%200%200%201%20.77-2l1.1-1.23a.5.5%200%200%200%20.13-.33V9.5a7%207%200%200%201%204.7-6.61ZM9.18%2019.84A.16.16%200%200%200%209%2020a3%203%200%201%200%206%200c0-.1-.09-.17-.18-.16a24.86%2024.86%200%200%201-5.64%200Z%22%20class%3D%22%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
     }
@@ -64,21 +73,25 @@
 }
 
 /* Unread Channel Icon */
-:root { --mc: #ffffff;
+:root {
+  --mc: #ffffff;
 }
-.modeUnreadImportant__2ea32 .icon__2ea32 ,.unselectable__4a25c, .modeSelected__2ea32 .icon__2ea32,.actionIcon_c69b6d {
+
+.modeUnreadImportant__2ea32 .icon__2ea32, .unselectable__4a25c, .modeSelected__2ea32 .icon__2ea32, .actionIcon_c69b6d {
   color: var(--mc) !important;
 }
 
-/* Changes Window Control Buttons for Fresh/Solar Icons import */ 
+/* Changes Window Control Buttons for Fresh/Solar Icons import */
 .winButton_c38106:nth-of-type(1) svg,
 .winButton_c38106:nth-of-type(2) svg,
 .winButton_c38106:nth-of-type(3) svg {
-    display: none;
+  display: none;
 }
+
 .winButton_c38106:hover {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
+
 .winButton_c38106:nth-of-type(1)::before {
   content: '';
   width: 25px;
@@ -88,6 +101,7 @@
   mask-size: 100%;
   -webkit-mask-size: 100%;
 }
+
 .winButton_c38106:nth-of-type(2)::before {
   content: '';
   width: 25px;
@@ -97,6 +111,7 @@
   mask-size: 100%;
   -webkit-mask-size: 100%;
 }
+
 .winButton_c38106:nth-of-type(3)::before {
   content: '';
   width: 25px;
@@ -110,29 +125,42 @@
 /*                                             🚫 Hide Unneeded Items 🚫                                       */
 
 
-.avatarPopover__2d0ab,                                          /* Hide Reply & Send Reaction Buttons Profile */
-[class^=avatarDecoration_],                                     /* Hide Avatar Decorations */
-[aria-label="Start Video Call"],                                /* Hide Voice Call Button */
-[class*='membersGroup']:has([role=button]),                     /* Hide Member List Activities */
-[class*='member'] [class*='container']:has([class*='badges']) 
-{
+.avatarPopover__2d0ab,
+/* Hide Reply & Send Reaction Buttons Profile */
+[class^=avatarDecoration_],
+/* Hide Avatar Decorations */
+[aria-label="Start Video Call"],
+/* Hide Voice Call Button */
+[class*='membersGroup']:has([role=button]),
+/* Hide Member List Activities */
+[class*='member'] [class*='container']:has([class*='badges']) {
   display: none !important;
-} 
+}
 
 
 /*                                                🗑️ Remove Bloat 🗑️                                           */
 
 
-[href="/store"],                                 /* Remove Nitro Tab */
-[href="/shop"],                                  /* Remove Shop Tab */
-button[aria-label="Apps"],                       /* Remove App button */
-a[href="https://support.discord.com"],           /* Remove Help Button */
-.nowPlayingColumn__133bf,                        /* Remove Active Now Sidebar */
-.newChannel__599fa,                              /* Remove "NEW" text thats next to channels */
-.iconWrapper__9293f:has([d^="M12 22C12.4883"]),  /* Remove User Profile Button (broken) */
-.buttons__74017 > .button__201d5,                /* Remove Gift Button */
-:where(.visual-refresh) .unread__2ea32           /* Remove Channel Dot Notification */
-{ 
+[href="/store"],
+/* Remove Nitro Tab */
+[href="/shop"],
+/* Remove Shop Tab */
+button[aria-label="Apps"],
+/* Remove App button */
+a[href="https://support.discord.com"],
+/* Remove Help Button */
+.nowPlayingColumn__133bf,
+/* Remove Active Now Sidebar */
+.newChannel__599fa,
+/* Remove "NEW" text thats next to channels */
+.iconWrapper__9293f:has([d^="M12 22C12.4883"]),
+/* Remove User Profile Button (broken) */
+.buttons__74017>.button__201d5,
+/* Remove Gift Button */
+:where(.visual-refresh) .unread__2ea32
+
+/* Remove Channel Dot Notification */
+  {
   display: none !important;
 }
 
@@ -141,93 +169,79 @@ a[href="https://support.discord.com"],           /* Remove Help Button */
 /* Aligned Chat Bar */
 .visual-refresh {
   --custom-channel-textarea-text-area-height: 56px;
+
   .form_f75fb0 {
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
+
   .channelTextArea_f75fb0 {
-      margin-bottom: 8px;
+    margin-bottom: 8px;
   }
+
   .base_b88801 {
-      position: static;
-      order: -1;
+    position: static;
+    order: -1;
   }
 }
 
-/* Expandable Member List Settings */ 
+/* Expandable Member List Settings */
 :root {
-  --hover-animation-speed: 0.6s;
-  --nametag-fade-speed: 0.6s ease-in;
-  --nametag-fade-speed: 0.6s ease-out;
+  --hover-animation-speed: 0.3s;
+  --nametag-fade-speed: 0.3s ease-in-out;
   --icon-custom-color: var(--channels-default);
 }
 
-/* Expandable Userpanel */
+/* Expandable Userpanel - Optimized */
 .panels_c48ade {
- height: 58px;
- width: 58px!important;
- display: flex!important;
- flex-direction: column;
- overflow: hidden;
- transition: width 0.6s;
+  height: 58px;
+  width: 58px !important;
+  display: flex !important;
+  flex-direction: column;
+  transform: translateZ(0);
+  transition: width var(--hover-animation-speed) cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
   z-index: 50000;
   pointer-events: all;
-  border: 1px solid var(--border-subtle)!important;
- &:has(.container_e131a9) {
-  background-color: var(--notice-background-positive);
-  border: 1px solid var(--border-normal);
- }
+  border: 1px solid var(--border-subtle) !important;
+
+  &:has(.container_e131a9) {
+    background-color: var(--notice-background-positive);
+    border: 1px solid var(--border-normal);
+  }
 }
 
 .wrapper_e131a9 {
   height: 0;
   overflow: hidden;
-   transition: height 0.6s;
+  transform: translateZ(0);
+  transition: height var(--hover-animation-speed) cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
 }
+
 .panels_c48ade:hover {
-  width: 100%!important;
-  width: 300px!important;
-  height: auto!important;
+  width: 300px !important;
+  height: auto !important;
+
   .wrapper_e131a9 {
-    height: auto!important;
+    height: auto !important;
   }
 }
-.sidebar_c48ade {
-  overflow: visible!important;
-}
-.container__2637a {
-  padding-bottom: 0px!important;
-}
-.scroller__99e7c {
-  margin-bottom: 0px!important;
-}
 
-.bottom__7aaec {
-  bottom: 0px!important;
-}
-
-/* Userpanel Fixes */
-.visual-refresh .panel__5dec7 {
-  display: none;
-}
-
-/* Expandable Message Actions */
-[class^=buttonsInner_] [aria-label]:not([aria-label="More"],[aria-label="Delete"]),
+/* Optimized Message Actions */
+[class^=buttonsInner_] [aria-label]:not([aria-label="More"], [aria-label="Delete"]),
 [class^=buttonsInner_] .separator_f84418 {
-    pointer-events: none;
-    opacity: 0;
-    position: relative;
-    margin-left: -34px !important;
-    transition: margin-left 0.3s ease, opacity 0.1s ease;
-    z-index: 1;
+  opacity: 0;
+  transform: translateX(-34px);
+  transition: transform var(--hover-animation-speed) cubic-bezier(0.4, 0, 0.2, 1),
+    opacity var(--hover-animation-speed) cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform, opacity;
 }
 
-[class^=buttonsInner_]:hover [aria-label]:not([aria-label="More"],[aria-label="Delete"]),
+[class^=buttonsInner_]:hover [aria-label]:not([aria-label="More"], [aria-label="Delete"]),
 [class^=buttonsInner_]:hover .separator_f84418 {
-    pointer-events: all;
-    opacity: 1;
-    position: relative;
-    margin-left: 0px !important;
+  opacity: 1;
+  transform: translateX(0);
 }
 
 /* 2 Line Channel Description */
@@ -241,28 +255,43 @@ section[aria-label="Channel header"] div[class^=topic_] {
 
 /* Radial Status */
 :root {
-  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
-  --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
-  --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+  --rs-small-spacing: 2px;
+  /* Gap between avatar and status for members list/dms | MUST end in px */
+  --rs-medium-spacing: 3px;
+  /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 4px;
+  /* Gap between avatar and status for User profiles | MUST end in px */
 
-  --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
-  --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
-  --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+  --rs-small-width: 2px;
+  /* Thickness of status border for members list/dms | MUST end in px */
+  --rs-medium-width: 3px;
+  /* Thickness of status border for User popout | MUST end in px */
+  --rs-large-width: 4px;
+  /* Thickness of status border for User profile | MUST end in px */
 
-  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+  --rs-avatar-shape: 50%;
+  /* 50% for round - 0% for square */
 
-  --rs-online-color: #43b581; /* Colour for online status */
-  --rs-idle-color: #faa61a; /* Colour for idle status */
-  --rs-dnd-color: #f04747; /* Colour for dnd status */
-  --rs-offline-color: #636b75; /* Colour for offline status */
-  --rs-streaming-color: #643da7; /* Colour for streaming status */
-  --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
-  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+  --rs-online-color: #43b581;
+  /* Colour for online status */
+  --rs-idle-color: #faa61a;
+  /* Colour for idle status */
+  --rs-dnd-color: #f04747;
+  /* Colour for dnd status */
+  --rs-offline-color: #636b75;
+  /* Colour for offline status */
+  --rs-streaming-color: #643da7;
+  /* Colour for streaming status */
+  --rs-invisible-color: #747f8d;
+  /* Colour for invisible status - Note: this will only show for your own invisibility */
+  --rs-phone-color: var(--rs-online-color);
+  /* Colour of the ring and phone icon when a user is on their phone |  */
 
-  --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+  --rs-phone-visible: none;
+  /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 }
 
-#app-mount .wrapper__44b0c .mask__44b0c > rect[x="14.5"] {
+#app-mount .wrapper__44b0c .mask__44b0c>rect[x="14.5"] {
   width: 32px !important;
   height: 32px !important;
   x: 0 !important;
@@ -270,24 +299,27 @@ section[aria-label="Channel header"] div[class^=topic_] {
 }
 
 /* Compact context Menu */
-.layer_da8173 > .menu_c1e9c4 > .scroller_c1e9c4 {
-    margin: -4px;
-    .separator_c1e9c4 {
-        margin: 1px 8px !important;
-    }
-    .wrapper_f563df {
-        padding: 2px !important;
-    }
-    .item_c1e9c4{
-        /* min-height is 32px as default, change value for desired look */
-        min-height: 32;
-        /* padding is 4px 8px as default, change value for desired look */
-        padding: 4px 8px;
-    }
+.layer_da8173>.menu_c1e9c4>.scroller_c1e9c4 {
+  margin: -4px;
+
+  .separator_c1e9c4 {
+    margin: 1px 8px !important;
+  }
+
+  .wrapper_f563df {
+    padding: 2px !important;
+  }
+
+  .item_c1e9c4 {
+    /* min-height is 32px as default, change value for desired look */
+    min-height: 32;
+    /* padding is 4px 8px as default, change value for desired look */
+    padding: 4px 8px;
+  }
 }
 
 /* Pinned Page Switcher */
-[class^=searchResultsWrap_] [class^=container_]:has([class^=pageControlContainer_]){
+[class^=searchResultsWrap_] [class^=container_]:has([class^=pageControlContainer_]) {
   position: sticky;
   bottom: 0px;
   z-index: 999;
@@ -295,53 +327,56 @@ section[aria-label="Channel header"] div[class^=topic_] {
 }
 
 /* Fullscreen Settings */
- 
- .sidebarRegion__23e6b {
+
+.sidebarRegion__23e6b {
   flex: none;
 }
+
 .contentColumn__23e6b, .customColumn__23e6b {
-    max-width: 100%;
-    min-height: 100%;
+  max-width: 100%;
+  min-height: 100%;
 }
+
 .accountProfileCard__1fed1 .mask__68edb mask circle {
   display: none;
 }
+
 .avatar__1fed1 {
-  top: 115px;  /* Change px height to your preference */
-/* Vertical Heights: 115px @ 80% Zoom - 92px @ 90% Zoom - 80px @ 100% Zoom */ 
-/* Horizontal Heights: 342px @ 90% Zoom - 300px @ 100% Zoom */
+  top: 115px;
+  /* Change px height to your preference */
+  /* Vertical Heights: 115px @ 80% Zoom - 92px @ 90% Zoom - 80px @ 100% Zoom */
+  /* Horizontal Heights: 342px @ 90% Zoom - 300px @ 100% Zoom */
 }
 
 
 /* Collapse Clan Tags */
-[class^="chipletContainerInner_"] > span > .unselectable__10651 {
+[class^="chipletContainerInner_"]>span>.unselectable__10651 {
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
   max-width: 0;
-  will-change: max-width, margin;
-  transition: max-width 0.7s cubic-bezier(0.34, 1.56, 0.64, 1), 
-              margin 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transform: translateZ(0);
+  will-change: transform;
+  transition: max-width var(--hover-animation-speed) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-[class^="chipletContainerInner_"]:hover > span > .unselectable__10651 {
+[class^="chipletContainerInner_"]:hover>span>.unselectable__10651 {
   max-width: 20ch;
   margin-right: .3ch;
-  /* Prevents it from triggering if you just quickly mouseover :D */
-  transition-delay: 0.08s;
+  transition-delay: 0.05s;
 }
 
-[class^="chipletContainerInner_"] > span > img.badge__10651 {
+[class^="chipletContainerInner_"]>span>img.badge__10651 {
   margin-right: 0;
-  transition: transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1), 
-              margin 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transform: translateZ(0);
+  will-change: transform;
+  transition: transform var(--hover-animation-speed) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-[class^="chipletContainerInner_"]:hover > span > img.badge__10651 {
+[class^="chipletContainerInner_"]:hover>span>img.badge__10651 {
   transform: rotateZ(360deg);
   margin-right: .6ch;
-  /* Same as above transition delay */
-  transition-delay: 0.08s;
+  transition-delay: 0.05s;
 }
 
 [class^="chipletContainerInner_"] {
@@ -360,23 +395,29 @@ section[aria-label="Channel header"] div[class^=topic_] {
 
 /* Swap Clan Tag and Role Icons */
 [class^="headerText"] {
-    display: inline-flex;
-    & > span:has([class^="roleicon"]){
-        order: 2;
-    }
-    & > span:has([class^="chipletContainerInner"]){
-        order: 3;
-    }
-    & > span[style="display: none;"]{
-        order: 4;
-    }
-    & > .vc-message-decorations-wrapper {
-        order: 5;
-    }
-    & > span:has(> [class^="newMemberBadge"]){
-        order: 6;
-    }
-    & > span:is([class^="botTag"]){
-        order: 7;
-    }
+  display: inline-flex;
+
+  &>span:has([class^="roleicon"]) {
+    order: 2;
+  }
+
+  &>span:has([class^="chipletContainerInner"]) {
+    order: 3;
+  }
+
+  &>span[style="display: none;"] {
+    order: 4;
+  }
+
+  &>.vc-message-decorations-wrapper {
+    order: 5;
+  }
+
+  &>span:has(> [class^="newMemberBadge"]) {
+    order: 6;
+  }
+
+  &>span:is([class^="botTag"]) {
+    order: 7;
+  }
 }
